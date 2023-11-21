@@ -434,6 +434,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const heading = document.createElement("h2");
     heading.innerText = package.location;
+    heading.setAttribute("class","heading")
 
     const description = document.createElement("p");
     description.innerText = package.description;
@@ -544,6 +545,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     buttonDiv.appendChild(button);
 
+    mainContainer.appendChild(heading);
     mainContainer.appendChild(imageContainer);
     mainContainer.appendChild(contentContainer);
     mainContainer.appendChild(itineraryContainer);

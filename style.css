@@ -783,9 +783,10 @@ section {
 
 .package-itinerary{
   position: absolute;
-  top: 3rem;
+  top: 13.5rem;
   left: 5rem;
-  font-size: .74rem;
+  font-size: .75rem;
+  height: 650px;
   color: #fff;
   background: rgb(0, 0, 0, 0.7);
   border-radius: 0.5rem;
@@ -806,6 +807,7 @@ section {
   padding: 2rem;
   position: relative;
   
+
 }
 
 
