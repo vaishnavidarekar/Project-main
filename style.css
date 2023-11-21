@@ -169,7 +169,7 @@ section {
   line-height: 2.5rem;
   font-size: 1rem;
   border-radius: 0.5rem;
-  margin-left: 0.5rem;
+  margin-left: .5rem;
   background: var(--bg-color-2);
   color: var(--text-color-1);
   cursor: pointer;
