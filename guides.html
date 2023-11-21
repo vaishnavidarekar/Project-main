@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guides</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="./js/login.js"></script>
+
+    <script src="./js/guides.js"></script>
+  </head>
+  <body>
+
+    <header class="header">
+      <a href="#" class="logo"> <i class="fas fa-paper-plane"></i> Voyage </a>
+      <form action="" class="search-form">
+          <input type="search" name="" placeholder="Search here.." id="searchbox">
+          
+          <label for="searchbox" class="fas fa-search"></label>
+      </form>
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-moon" id="theme-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+        <div class="fas fa-bars" id="menu-btn"></div>
+      </div>
+
+      <nav class="navbar">
+          <a href="#home">Home</a>
+          <a href="#packages">Packages </a>
+          <a href="#guide">Guides </a>
+          <a href="#Services">Services</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#review">Revivew</a>
+          <a href="#contact">Contact</a>
+          <a href="#blogs">Blogs</a>
+      </nav>
+
+      <form action="" class="Login-form" id="Login-form">
+          <div class="inputBox">
+              <span>Email</span>
+              <input type="email" name="email" placeholder="enter your email ">
+          </div>
+
+          <div class="inputBox">
+              <span>password</span>
+              <input type="password" name="password" placeholder="enter your password ">
+          </div>
+
+          <div class="remember">
+              <input type="checkbox" name="" id="login-remenber">
+              <label for="login-remenber"> Remember me</label>
+              <br>
+              <a href="./regist.html">if new register</a>
+
+          </div>
+
+          <input type="submit" class="btn" value="login">
+      </form>
+  </header>           
+  
+    <section class="packages" id="ourGuide">
+      <h1 class="heading">Our <span>Guides</span></h1>
+
+      <div class="box-container"></div>
+      </div>
+      <br />
+      <br />
+      <a href="./index.html" class="btn">back to home</a>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 600,
+        delay: 200,
+      });
+    </script>
+  </body>
+</html>
