@@ -758,6 +758,7 @@ section {
 
 
 .orderDetails{
+  
   background: var(--bg-color-1);
   border-radius: 0.5rem;
   box-shadow: var(--box-shadow);

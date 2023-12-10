@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
         localStorage.setItem("jwtToken", token);
         localStorage.setItem("name", user.name);
         localStorage.setItem("_id", user._id);
+        localStorage.setItem("role",user.role)
 
         window.location.reload();
 
