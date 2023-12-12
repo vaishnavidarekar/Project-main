@@ -844,6 +844,83 @@ section {
 
 
 
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+  background: linear-gradient(90deg, #b4792d 60%, #b25a03 40.1%);
+  
+}
+
+.container form{
+  padding:20px;
+  width:700px;
+  background: #ffffff;
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.container form .col{
+  flex:1 1 250px;
+}
+
+.container form  .col .title{
+  font-size: 20px;
+  color:#333;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form  .col .inputBox{
+  margin:15px 0;
+}
+
+.container form  .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form  .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form  .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container form  .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.container form  .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .btn{
+  text-align: center;
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: var(--orange);
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+
+
 
 
 

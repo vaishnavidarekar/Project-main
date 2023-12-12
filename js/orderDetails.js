@@ -62,11 +62,11 @@ document.addEventListener("DOMContentLoaded", function () {
     ).toLocaleString()}`;
 
     const backHomeButton = document.createElement("button");
-    backHomeButton.innerText = "Back Home";
+    backHomeButton.innerText = "Make Payment";
     backHomeButton.setAttribute("class", "btn");
 
     backHomeButton.addEventListener("click", function () {
-      window.location.href = "index.html";
+      window.location.href = "pay.html";
     });
 
     orderSection.appendChild(packageImageDiv);
