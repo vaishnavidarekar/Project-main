@@ -25,11 +25,12 @@
                 <div class="inputBox">
                  <h1 class="heading">Register <span>Now</span></h1>
                  <br>
-                 <input type="text" name="name" placeholder="Enter your name">
+                 <input type="text"  name="name" onkeydown="return /[a-zA-Z]/i.test(event.key)" placeholder="Enter your name">
                  <br>
                  <input type="email" name="email" placeholder="Enter your email">
                  <br>
-                 <input type="password" name="password" placeholder="enter your password">
+                 <input  class= "inputBox"type="password" name="password" placeholder="enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase
+                  letter, and at least 8 or more characters" required>
                  <br>
                  <input type="password" name="cpassword" placeholder="confirm your password">
                  <br>
