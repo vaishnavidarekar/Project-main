@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-         
+         <!--font awesome cdn link-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
          
         <link rel="stylesheet" href="style.css">
@@ -361,19 +361,20 @@
     <!--Contact section starts-->
     <section class="contact" id="contact">
         <h1 class="heading"><span>Contact</span> US</h1>
-        <form action="" data-aos="zoom-in">
+        <form action="https://formspree.io/f/mdoqndya"  method="post" data-aos="zoom-in">
             <div class="inputBox">
-                <input type="text" placeholder="name" data-aos="fade-up" >
-                <input type="email" placeholder="email" data-aos="fade-up" >
+                <input  name="Name" type="text" placeholder="name" data-aos="fade-up" >
+                <input  name = "email" type="email" placeholder="email" data-aos="fade-up" >
             </div>
             <div class="inputBox">
-                <input type="number" placeholder="number" data-aos="fade-up" >
-                <input type="text" placeholder="subject" data-aos="fade-up" >
+                <input name="contact number" type="number" placeholder="number" data-aos="fade-up" >
+                <input name="subject" type="text" placeholder="subject" data-aos="fade-up" >
             </div>
-            <textarea name=" " placeholder="your message" id="" cols="30" rows="10" data-aos="zoom-in" >     
+            <textarea name="message" placeholder="your message" id="" cols="30" rows="10" data-aos="zoom-in" >     
             </textarea>
             <br>
             <input type="submit" value="send message" class="btn">
+           <!-- <a href="" class="btn">send Email</a>-->
         </form>
     </section>
     <!--Contact section ends-->
